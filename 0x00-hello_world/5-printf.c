@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
- * the main function prints with proper grammar, but the outcome is a piece of art
+ * main - prints with proper grammar, but the outcome is a piece of art
+ * return - 0 to exit 
  */
 
 int main(void)

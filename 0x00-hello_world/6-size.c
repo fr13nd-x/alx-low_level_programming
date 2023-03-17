@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
- * the main function prints the sizes of datatypes
+ * main - prints the sizes of datatypes
+ * return - 0 to exit
  */
 int main(void)
 {

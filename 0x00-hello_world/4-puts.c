@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
-*the program outputs the text Programming is like building a multilingual puzzle when the main function is called
+* main - outputs the text Programming is like building a multilingual puzzle
+* return: 0 to exit
 */
 int main(void)
 {
