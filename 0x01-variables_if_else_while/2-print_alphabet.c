@@ -1,17 +1,19 @@
 #include <stdio.h>
-/**main - loop through alphabets from a to z
- * 
- * return: 0 always (success)
- */
 
+/**
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	
-	for (char alph='a'; alph < 'z'; alph++)
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(alph);
+		putchar(ch);
 	}
 	putchar('\n');
-
 	return (0);
 }
+
