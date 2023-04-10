@@ -6,7 +6,7 @@ ar, ranlib, nm and their usage
 Create the static library libmy.a containing all the functions listed below:
 	-The `main.h` file contains the following functions
 
-		```c
+	```c
 		int _putchar(char c);
 		int _islower(int c);
 		int _isalpha(int c);
