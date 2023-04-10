@@ -6,7 +6,7 @@ ar, ranlib, nm and their usage
 Create the static library libmy.a containing all the functions listed below:
 	-The `main.h` file contains the following functions
 
-	```c
+		```c
 		int _putchar(char c);
 		int _islower(int c);
 		int _isalpha(int c);
@@ -27,7 +27,7 @@ Create the static library libmy.a containing all the functions listed below:
 		unsigned int _strspn(char *s, char *accept);
 		char *_strpbrk(char *s, char *accept);
 		char *_strstr(char *haystack, char *needle);
-	```
+		```
 
 	- Procedure in creating a static library.
 		- Compile all `.c` files to get the object files `.o` files.
