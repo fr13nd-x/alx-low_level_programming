@@ -39,3 +39,8 @@ Returns: 1 if it worked, or -1 if an error occurred
 
 Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
 You are not allowed to use the % or / operators
+
+100-get_endianness.c - a function that checks the endianness.
+
+Prototype: int get_endianness(void);
+Returns: 0 if big endian, 1 if little endian
