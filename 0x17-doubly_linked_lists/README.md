@@ -32,6 +32,17 @@ if it is not possible to add the new node at index idx, do not add the new node 
 Prototype: int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 where index is the index of the node that should be deleted. Index starts at 0
 
+100-password - Find the password for crackme4.
+link for the file crackme4
+[https://github.com/alx-tools/0x17.c] 
 
+102-result -  palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+Find the largest palindrome made from the product of two 3-digit numbers.
 
+103-keygen.c - Usage of the crackme: ``./crackme5 username key``
+The crackme will segfault if you do not enter the correct key for the user
+Usage for your keygen: ``./keygen5 username``
+Your keygen should print a valid key for the username
+link for the file crackme5
+[https://github.com/alx-tools/0x17.c]
 
