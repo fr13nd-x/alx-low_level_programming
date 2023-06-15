@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * flip_bits - flip bits to convert one number to another number
@@ -8,17 +7,13 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-        unsigned long int diff;
-        int counter;
+	unsigned long int xor = n ^ m, bits = 0;
 
-        diff = n ^ m;
-        counter = 0;
+	while (xor > 0)
+	{
+		bits += (xor & 1);
+		xor >>= 1;
+	}
 
-        while (diff)
-        {
-                counter++;
-                diff &= (diff - 1);
-        }
-
-        return (counter);
+	return (bits);
 }
